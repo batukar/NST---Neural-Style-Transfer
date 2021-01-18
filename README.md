@@ -2,8 +2,8 @@
  <b>Keras'ta Sinirsel Stil Aktarımı</b><br>
  Kaynak kodları hazır olarak sizi beklemektedir. İçerik ve stil görüntülerini, kullanmak istediğiniz VGG modelini, optimizasyon yönteminizi ve iterasyon sayısını belirledikten sonra kendi görüntünüzü elde edebilirsiniz.
 
- <b>Neural Style Transfer in keras</b><br>
- The source codes are ready for you. After determining the content and style images, the VGG model you want to use, your optimization method and the number of iterations, you can get your own image.
+ <i><b>Neural Style Transfer in keras</b><br>
+ The source codes are ready for you. After determining the content and style images, the VGG model you want to use, your optimization method and the number of iterations, you can get your own image.</i>
 
 ## Stil aktarımı nedir? <i>/ What is the style transfer?</i>
 Stil aktarımı, temelinde CNN modeli kullanarak içerik görüntüsünün içeriğini ve stil görüntüsünün stilini (dokusunu) ayırarak, içerik görüntüsüne stili özelliklerinin aktarımını sağlayan ve yeni bir görüntü elde eden bir yöntemdir.
