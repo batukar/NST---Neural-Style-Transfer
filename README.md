@@ -4,6 +4,8 @@
 ## Stil aktarımı nedir?
 Stil aktarımı, temelinde CNN modeli kullanarak içerik görüntüsünün içeriğini ve stil görüntüsünün stilini (dokusunu) ayırarak, içerik görüntüsüne stili özelliklerinin aktarımını sağlayan ve yeni bir görüntü elde eden bir yöntemdir.
 
+![N|Solid](./assets/nst_mantık.png)
+
 ### Bunu nasıl yapar?
 İki farklı VGG modelini ele alalım
 
