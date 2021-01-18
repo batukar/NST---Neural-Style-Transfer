@@ -1,9 +1,9 @@
 # NST - Neural Style Transfer
- <b>Keras'ta Sinirsel Stil Aktarımı</b>
+ <b>Keras'ta Sinirsel Stil Aktarımı</b><br>
+ Kaynak kodları hazır olarak sizi beklemektedir. İçerik ve stil görüntülerini, kullanmak istediğiniz VGG modelini, optimizasyon yönteminizi ve iterasyon sayısını belirledikten sonra kendi görüntünüzü elde edebilirsiniz.
 
- <b>Neural Style Transfer in keras</b>
- 
- [![contact](./assets/batukar.png)](http://batukar.me)
+ <i><b>Neural Style Transfer in keras</b><br>
+ The source codes are ready for you. After determining the content and style images, the VGG model you want to use, your optimization method and the number of iterations, you can get your own image.</i>
 
 ## Stil aktarımı nedir? <i>/ What is the style transfer?</i>
 Stil aktarımı, temelinde CNN modeli kullanarak içerik görüntüsünün içeriğini ve stil görüntüsünün stilini (dokusunu) ayırarak, içerik görüntüsüne stili özelliklerinin aktarımını sağlayan ve yeni bir görüntü elde eden bir yöntemdir.
@@ -37,7 +37,7 @@ With these two network models:
   
 ![](./assets/nst.png)
 
-## Kayıp Fonksiyonları Nasıl Hesaplanır? && How to Calculate Loss Functions?
+## Kayıp Fonksiyonları Nasıl Hesaplanır? <i>/ How to Calculate Loss Functions?</i>
 ### İçerik Kaybı <i>/ Content Loss </i>
 İçerik kaybı yapılan bu uygulamada, VGG modelin son (5.) bloğunda bulunan 2. konvolüsyon aşamasındaki hedef görüntü ile içerik görüntüsü arasındaki fark hesaplanarak bulunur. Amaç hedef görüntünün ne kadar içerik görüntüsüne içerik açısından benzediğini bulmaktır.
 
@@ -83,3 +83,7 @@ Bu iki kayıp değeri (içerik ve stil) alfa ve beta değerleri ile güncellener
 ![](./assets/vgg19.png)
 
 
+
+# İletişim <i>/ Contact </i>
+
+ [![contact](./assets/batukar.png)](http://batukar.me)
