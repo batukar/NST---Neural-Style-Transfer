@@ -1,14 +1,14 @@
 # NST - Neural Style Transfer
  Neural Style Transfer in keras
 
-## Stil aktarımı nedir? && What is the style transfer?
+## Stil aktarımı nedir? <i> What is the style transfer?</i>
 Stil aktarımı, temelinde CNN modeli kullanarak içerik görüntüsünün içeriğini ve stil görüntüsünün stilini (dokusunu) ayırarak, içerik görüntüsüne stili özelliklerinin aktarımını sağlayan ve yeni bir görüntü elde eden bir yöntemdir.
 
 <i>Style transfer is a method that separates the content of the content image and the style (texture) of the style image by using the CNN model on its basis, providing the transfer of style properties to the content image and obtaining a new image.</i>
 
 ![](./assets/nst_mantik.png)
 
-### Bunu nasıl yapar? && How does it do that?
+### Bunu nasıl yapar? <i> How does it do that? </i>
 İki farklı VGG modelini ele alalım
 
   - VGG16
@@ -34,14 +34,14 @@ With these two network models:
 ![](./assets/nst.png)
 
 ## Kayıp Fonksiyonları Nasıl Hesaplanır? && How to Calculate Loss Functions?
-### İçerik Kaybı && Content Loss
+### İçerik Kaybı <i> Content Loss </i>
 İçerik kaybı yapılan bu uygulamada, VGG modelin son (5.) bloğunda bulunan 2. konvolüsyon aşamasındaki hedef görüntü ile içerik görüntüsü arasındaki fark hesaplanarak bulunur. Amaç hedef görüntünün ne kadar içerik görüntüsüne içerik açısından benzediğini bulmaktır.
 
 <i>In this application with content loss, the difference between the target image in the 2nd convolution stage and the content image in the last (5th) block of the VGG model is calculated and found. The goal is to find out how much the target image resembles the content image in terms of content.</i>
 
 ![](./assets/l_content.png)
 
-### Stil Kaybı && Style Loss
+### Stil Kaybı <i> Style Loss </i>
 Stil kaybı, VGG modelin her bloğunda bulunan 1. konvolüsyon aşamasında hesaplanır. Lakin stil kaybını hesaplamadan evvel bir işlem daha uygulamamız gerekmektedir. Bu işlemin adı ise Gram Matrisi bulmaktır. Gram matris korelasyonu bulmakta bize yardımcı olacaktır. 
 Gram matris 2 boyutlu görüntünün transpozesi ile çarpılmasıyla bulunur.
 
@@ -66,12 +66,12 @@ Her katmanda elde edilen kayıplar küçük bir değerle güncellenir ve toplan�
 
 <i>The losses obtained in each layer are updated with a small value and summed up. The last value achieved is our style loss.</i>
 
-### Toplam Kayıp && Total Loss
+### Toplam Kayıp <i> Total Loss </i>
 Bu iki kayıp değeri (içerik ve stil) alfa ve beta değerleri ile güncellenerek toplanır.
 
 <i>These two loss values (content and style) are added up by updating them with alpha and beta values.</i>
 
-## Sonuçlar
+## Sonuçlar <i>Results </i>
 ### VGG16
 ![](./assets/vgg16.png)
 
