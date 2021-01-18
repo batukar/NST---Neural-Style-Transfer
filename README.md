@@ -35,7 +35,7 @@ With these two network models:
   
 ![](./assets/nst.png)
 
-## Kayıp Fonksiyonları Nasıl Hesaplanır? && How to Calculate Loss Functions?
+## Kayıp Fonksiyonları Nasıl Hesaplanır? <i>/ How to Calculate Loss Functions?</i>
 ### İçerik Kaybı <i>/ Content Loss </i>
 İçerik kaybı yapılan bu uygulamada, VGG modelin son (5.) bloğunda bulunan 2. konvolüsyon aşamasındaki hedef görüntü ile içerik görüntüsü arasındaki fark hesaplanarak bulunur. Amaç hedef görüntünün ne kadar içerik görüntüsüne içerik açısından benzediğini bulmaktır.
 
