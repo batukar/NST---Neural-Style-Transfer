@@ -2,8 +2,6 @@
  <b>Keras'ta Sinirsel Stil Aktarımı</b>
 
  <b>Neural Style Transfer in keras</b>
- 
- [![contact](./assets/batukar.png)](http://batukar.me)
 
 ## Stil aktarımı nedir? <i>/ What is the style transfer?</i>
 Stil aktarımı, temelinde CNN modeli kullanarak içerik görüntüsünün içeriğini ve stil görüntüsünün stilini (dokusunu) ayırarak, içerik görüntüsüne stili özelliklerinin aktarımını sağlayan ve yeni bir görüntü elde eden bir yöntemdir.
@@ -83,3 +81,7 @@ Bu iki kayıp değeri (içerik ve stil) alfa ve beta değerleri ile güncellener
 ![](./assets/vgg19.png)
 
 
+
+# İletişim <i>/ Contact </i>
+
+ [![contact](./assets/batukar.png)](http://batukar.me)
