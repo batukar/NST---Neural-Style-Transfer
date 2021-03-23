@@ -77,7 +77,7 @@ Bu iki kayıp değeri (içerik ve stil) alfa ve beta değerleri ile güncellener
 
 ## Konu hakkında yayınlanmış makalem <i>/ My published article on this subject </i>
 ### Dergipark Adresi
-[![link]](https://dergipark.org.tr/en/pub/politeknik/issue/33364/885838)
+[dergipark](https://dergipark.org.tr/en/pub/politeknik/issue/33364/885838)
 
 
 
