@@ -75,12 +75,9 @@ Bu iki kayıp değeri (içerik ve stil) alfa ve beta değerleri ile güncellener
 
 <i>These two loss values (content and style) are added up by updating them with alpha and beta values.</i>
 
-## Sonuçlar <i>/ Results </i>
-### VGG16
-![](./assets/vgg16.png)
-
-### VGG19
-![](./assets/vgg19.png)
+## Konu hakkında yayınlanmış makalem <i>/ My published article on this subject </i>
+### Dergipark Adresi
+[![link]](https://dergipark.org.tr/en/pub/politeknik/issue/33364/885838)
 
 
 
