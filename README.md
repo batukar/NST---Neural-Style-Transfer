@@ -83,4 +83,4 @@ Bu iki kayıp değeri (içerik ve stil) alfa ve beta değerleri ile güncellener
 
 # İletişim <i>/ Contact </i>
 
- [![contact](./assets/batukar.png)](http://batukar.me)
+ [![contact](./assets/batukar.png)](http://batukar.com)
